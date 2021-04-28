@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\Kağan\source\repos\SchoolProject\School.WebApi\School.WebApi.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NSwag.AspNetCore" Version="13.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\School.Business\School.Business.csproj" />
+    <ProjectReference Include="..\School.DataAccess\School.DataAccess.csproj" />
+    <ProjectReference Include="..\School.Entity\School.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

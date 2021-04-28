@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>School.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:School.WebApi.Controllers.StudentsController.GetAll">
+            <summary>
+            Get All Students
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:School.WebApi.Controllers.StudentsController.GetById(System.Int32)">
+            <summary>
+            Get Student ById
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:School.WebApi.Controllers.StudentsController.GetByName(System.String)">
+            <summary>
+            Create an Student
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:School.WebApi.Controllers.StudentsController.Create(School.Entity.Student)">
+            <summary>
+            Create an Student
+            </summary>
+            <param name="student"></param>
+            <returns></returns>
+        </member>
+        <member name="M:School.WebApi.Controllers.StudentsController.Update(School.Entity.Student)">
+            <summary>
+            Update an Hotel
+            </summary>
+            <param name="student"></param>
+            <returns></returns>
+        </member>
+        <member name="M:School.WebApi.Controllers.StudentsController.Delete(System.Int32)">
+            <summary>
+            Delete an Student
+            </summary>
+            <param name="id"></param>
+        </member>
+    </members>
+</doc>
